@@ -1,0 +1,14 @@
+    1  df -h
+    2  pwd
+    3  cd ..
+    4  pwd
+    5  ls
+    6  cd Documents/
+    7  ls
+    8  mkdir week1/
+    9  cd week1/
+   10  ls /usr/bin/*gcc* | sort -r
+   11  ls /usr/bin/*gcc* | sort -r >> ex1.txt
+   12  ls
+   13  cat ex1.txt 
+   14  history >> ex2.txt
