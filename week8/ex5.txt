@@ -1,0 +1,2 @@
+Physical Address: real address (hardware address) of physical memory
+Virtual Address: address viewed by process, might be same as physical memory, might be different (then must be mapped into physical address by Memory Management Unit - MMU)

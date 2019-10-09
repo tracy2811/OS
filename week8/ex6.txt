@@ -1,0 +1,6 @@
+One entry is needed for each page. Therefore number of entries needed for a single-level linear page table equals number of pages.
+
+16-bit virtual address means 2^16 addresses are accessable. Pages are 8KB (2^13).
+Therefore, a single-level linear page table may consist up to (2^16)/(2^13) = 2^3 = 8 entries.
+
+(In other word, with 16-bit address and 8KB (2^13) page size, at least 13 lower bits would specify the byte offset, then 16-13 = 3 upper bits could specify one of 2^3 = 8 virtual pages. Thefore, a single-level linear page table may consist up to 8 entries.) 
