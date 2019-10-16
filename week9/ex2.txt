@@ -1,0 +1,2 @@
+To increase hit, often refer to pages already refer previously (in page frames).
+To decrease hit, often refer to pages not in frames. (for example,refering to page previously remove from page frames)
