@@ -1,2 +1,6 @@
 To increase hit, often refer to pages already refer previously (in page frames).
 To decrease hit, often refer to pages not in frames. (for example,refering to page previously remove from page frames)
+
+For example, consider 10 frames, 1 page per tick:
+  Maximize hits: 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 ...
+  Minimize hits: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 1 2 3 4 5 6 7 8 9 10 ...
