@@ -1,2 +1,4 @@
 ./week01/file.txt
 ./_ex2.txt
+
+These files are deleted after removing all links from file.txt:w
