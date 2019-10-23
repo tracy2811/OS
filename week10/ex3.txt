@@ -1,0 +1,9 @@
+-rw-r--r-- 1 user user 0 Oct 23 12:57 _ex3.txt
+-rwxr--r-- 1 user user 0 Oct 23 12:57 _ex3.txt
+-rwxr--rwx 1 user user 0 Oct 23 12:57 _ex3.txt
+-rwxrwxrwx 1 user user 0 Oct 23 12:57 _ex3.txt
+
+660	rw-rw----
+775	rwxrwxr-x
+777	rwxrwxrwx
+
