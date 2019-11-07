@@ -1,0 +1,56 @@
+--------------------
+BUF_SIZE = 32 bytes
+----File size = 1 M
+--No O_SYNC
+
+real	0m2.055s
+user	0m0.000s
+sys	0m1.305s
+--O_SYNC
+
+real	0m2.092s
+user	0m0.004s
+sys	0m1.304s
+----File size = 100 M
+--No O_SYNC
+
+real	3m33.032s
+user	0m0.111s
+sys	2m11.859s
+--O_SYNC
+
+real	3m31.574s
+user	0m0.129s
+sys	2m11.869s
+--------------------
+BUF_SIZE = 1024 bytes
+----File size = 1 M
+--No O_SYNC
+
+real	0m0.081s
+user	0m0.000s
+sys	0m0.042s
+--O_SYNC
+
+real	0m0.070s
+user	0m0.000s
+sys	0m0.042s
+----File size = 100 M
+--No O_SYNC
+
+real	0m6.709s
+user	0m0.004s
+sys	0m4.133s
+--O_SYNC
+
+real	0m6.678s
+user	0m0.004s
+sys	0m4.130s
+
+
+--------------------
+NOTE
+
+- The bigger the buffer size, the faster the copying
+- The bigger the file size, the slower the copying
+- There is a slight difference between using O_SYNC and not using O_SYNC. O_SYNC flag specify that write() system call will be blocked until all file data and metadata have been written to the disk (file integrity completion).
